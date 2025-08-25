@@ -51,7 +51,7 @@ const About: React.FC = () => {
     <section id="about" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-purple-600 dark:text-purple-400 font-medium mb-4 animate-fadeIn">Intro</p>
+          <p className="text-purple-600 dark:text-purple-400 font-medium mb-4 animate-fadeIn">Personalized Compassionate care for every stage of womens life <br/> </p>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-8 animate-slideInUp">
             Know your Doctor
           </h2>
@@ -105,7 +105,8 @@ const About: React.FC = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative animate-slideInLeft">
-            <img src="/service.jpg" alt="Medical professional"
+            <img src={`${import.meta.env.BASE_URL}service.jpg`}
+             alt="Medical professional"
               
               className="w-full h-96 object-cover rounded-3xl shadow-2xl hover:scale-105 transition-transform duration-500"
             />

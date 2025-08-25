@@ -22,10 +22,11 @@ const Hero: React.FC<{ onBookNow: () => void }> = ({ onBookNow }) => {
                 Dr. <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Siddhi Fuke</span>
               </h1>
               <h2 className="text-xl lg:text-3xl font-semibold text-gray-700 dark:text-gray-300 animate-slideInUp" style={{animationDelay: '0.2s'}}>
-                Gynecologist & Obstetrician
+               Obstetrician &  Gynecologist 
               </h2>
               <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 max-w-md leading-relaxed animate-slideInUp" style={{animationDelay: '0.4s'}}>
-                Personalized, compassionate care for every stage of a woman's life.
+                Certified Sonologist.<br />      
+                Fellowship in Minimal Access Surgery,<br /> USG & Laparoscopy.
               </p>
             </div>
 
@@ -74,7 +75,10 @@ const Hero: React.FC<{ onBookNow: () => void }> = ({ onBookNow }) => {
           <div className="relative animate-slideInRight">
             <div className="relative bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/30 dark:to-pink-900/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-shadow duration-500">
               
-               <img src="/heroo.jpg" alt="Dr. Siddhi Fuke" className="w-full h-96 object-cover rounded-2xl hover:scale-105 transition-transform duration-500"/>
+              <img src={`${import.meta.env.BASE_URL}heroo.jpg`} 
+     alt="Dr. Siddhi Fuke" 
+     className="w-full h-96 object-cover rounded-2xl hover:scale-105 transition-transform duration-500"/>
+
 
               
                 

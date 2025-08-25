@@ -1,17 +1,25 @@
-import React from 'react';
+// import React from 'react';
 import { Heart } from 'lucide-react';
 
+// const journeyImages = [
+//   "/pregnency.jpg",   // ✅ correct spelling as in your folder
+//   "/baby.jpg",       // ✅ correct
+//   "/family.jpg"     // ✅ correct (extra y)
+// ];
 const journeyImages = [
-  "/pregnency.jpg",
-  "/baby.jpg",
-  "/family.jpg"
+  `${import.meta.env.BASE_URL}pregnency.jpg`,
+  `${import.meta.env.BASE_URL}baby.jpg`,
+  `${import.meta.env.BASE_URL}family.jpg`
 ];
+
+
 
 const Journey: React.FC = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 dark:from-gray-900 dark:via-purple-900/20 dark:to-blue-900/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          
           {/* Images Grid */}
           <div className="grid grid-cols-3 gap-4">
             {journeyImages.map((image, index) => (
