@@ -25,8 +25,7 @@ const Hero: React.FC<{ onBookNow: () => void }> = ({ onBookNow }) => {
                Obstetrician &  Gynecologist 
               </h2>
               <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 max-w-md leading-relaxed animate-slideInUp" style={{animationDelay: '0.4s'}}>
-                Certified Sonologist.<br />      
-                Fellowship in Minimal Access Surgery,<br /> USG & Laparoscopy.
+                Fellowship in Minimal Access Surgery,<br />  Laparoscopic Surgeon <br />  Fertility Specialist <br />  Certified Sonologist.<br /> 
               </p>
             </div>
 

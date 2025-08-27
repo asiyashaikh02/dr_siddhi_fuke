@@ -8,7 +8,7 @@ const About: React.FC = () => {
     {
       icon: <Stethoscope className="w-12 h-12 text-yellow-500" />,
       title: "Expertise",
-      description: "MBBS, MS (Gynecology & Obstetrics) with years of experience in women's health.",
+      description: "MBBS, MS(OBGYN),FMAS  with years of experience in women's health.",
       details: [
         "Advanced medical training",
         "Specialized in women's health",
