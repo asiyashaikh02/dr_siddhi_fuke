@@ -1,0 +1,21 @@
+{
+  "name": "Dr. Siddhi Fuke - Gynecologist & Sonologist",
+  "short_name": "Dr. Siddhi Fuke",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#9333ea",
+  "description": "Expert gynecology, obstetrics & sonology care in Nagpur.",
+  "icons": [
+    {
+      "src": "/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
