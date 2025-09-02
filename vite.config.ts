@@ -1,6 +1,7 @@
+
 export default defineConfig({
   plugins: [react()],
-  base: '/',   // ✅ For custom domain, always "/"
+  base: '/',  // ✅ Correct choice for custom domain
 })
 
 
