@@ -61,7 +61,7 @@ const Hero: React.FC<{ onBookNow: () => void }> = ({ onBookNow }) => {
             <div className="flex items-center space-x-6 text-sm text-gray-600 dark:text-gray-400 animate-slideInUp" style={{animationDelay: '0.8s'}}>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-purple-500" />
-                <span>Amravati, Maharashtra</span>
+                <span>Amravati,Nagpur, Maharashtra</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>

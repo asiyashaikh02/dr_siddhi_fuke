@@ -49,7 +49,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
               onClick={() => scrollToSection('#home')}
               className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-700 transition-all duration-300"
             >
-              Dr. Siddhi Fuke
+              Dr. Siddhi Fuke (MBBS, Ms OBGYN)
             </button>
           </div>
 
