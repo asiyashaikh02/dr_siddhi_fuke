@@ -10,7 +10,7 @@ const services = [
     icon: '👶',
     title: 'Pregnancy Care',
     desc: 'Comprehensive prenatal and postnatal care',
-    price: '₹300',
+    price: '₹200',
   },
   {
     icon: '❤️',
@@ -28,7 +28,7 @@ const services = [
     icon: '🛡️',
     title: 'PCOS Management',
     desc: 'Specialized treatment for hormonal disorders',
-    price: '₹600',
+    price: '₹500',
   },
   {
     icon: '📈',
