@@ -240,10 +240,10 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Dr. <span className="text-pink-600">Siddhi Fuke</span>
+               <span className="text-pink-600">Comprehensive Women's Healthcare</span>
             </h1>
             <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-6">
-              Obstetrician & Gynecologist
+              At Every Stage of Life
             </h2>
             <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
               Dr. Siddhi Fuke is an experienced Obstetrician & Gynecologist with
